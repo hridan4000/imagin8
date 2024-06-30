@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html body {
+  overflow-x: hidden;
+}
 /*header section*/
 .header {
   width: 100%;
@@ -38,6 +42,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.header .menue ul li:hover {
+  color: #fb8500;
+}
+
 /*header section*/
 
 /*hero section*/
@@ -301,3 +310,83 @@
 }
 
 /*end portfolio*/
+
+/*start of footer*/
+
+.footer {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  margin-top: 7.5rem;
+}
+
+.footer .section1 {
+  width: 30%;
+  position: relative;
+  top: 35%;
+  height: 20vh;
+  left: 8%;
+}
+.footer .section1 h2 {
+  color: white;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer .section1 p {
+  color: grey;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.footer .section2 {
+  width: 30%;
+  position: relative;
+  top: 35%;
+  height: 20vh;
+  left: 10%;
+}
+
+.footer .section2 h2 {
+  color: white;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer .section2 p {
+  color: grey;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.footer .section3 {
+  width: 30%;
+  position: relative;
+  top: 35%;
+  height: 20vh;
+  left: 9%;
+}
+
+.footer .section3 p {
+  color: white;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer .section3 h4 {
+  font-size: 18px;
+  color: grey;
+  font-weight: 200;
+}
+
+/*end of footer*/
