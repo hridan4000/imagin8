@@ -227,7 +227,7 @@ html body {
 .clients .scroller img {
   margin-top: 2rem;
   animation: scroll 5s linear infinite;
-  width: 15%;
+  width: 10%;
   height: 20vh;
 }
 @keyframes scroll {
