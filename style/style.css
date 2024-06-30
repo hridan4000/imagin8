@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header section*/
+.header {
+  width: 100%;
+  display: flex;
+  height: 12vh;
+  background-color: black;
+}
+.header .logo {
+  margin-left: 5rem;
+}
+.header .logo img {
+  height: 8vh;
+  width: 85%;
+  margin-top: 0.6rem;
+}
+
+.header .menue {
+  width: 75%;
+}
+.header .menue ul {
+  display: flex;
+  justify-content: right;
+}
+
+.header .menue ul li {
+  list-style-type: none;
+  line-height: 85px;
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*header section*/
+
+/*hero section*/
+
+.hero {
+  height: 80vh;
+  width: 100%;
+  box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero .hero-text h3 {
+  position: relative;
+  left: 40%;
+  top: 30%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.hero .hero-text h2 {
+  position: relative;
+  left: 40%;
+  font-size: 50px;
+  top: 35%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.hero .hero-text p {
+  position: relative;
+  left: 40%;
+  top: 38%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero .hero-text button {
+  position: relative;
+  left: 40%;
+  width: 25%;
+  border-radius: 10px;
+  background-color: #fb8500;
+  border: none;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 8%;
+  top: 42%;
+}
+
+.hero .hero-img {
+  margin-top: 3.3rem;
+  margin-left: 8rem;
+}
+/*end of hero section*/
+
+/*About me section*/
+
+.about-me {
+  margin-top: 8rem;
+  width: 100%;
+  height: 85vh;
+  box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me .about-section .about-img img {
+  width: 60%;
+  height: 58vh;
+  position: relative;
+  left: 18%;
+  top: 15%;
+  box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me .about-text .box {
+  position: relative;
+  top: 19%;
+  width: 60%;
+}
+
+.about-me .about-text .box h4 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.about-me .about-text .box h2 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 37px;
+  margin-top: 2rem;
+}
+.about-me .about-text .box p {
+  margin-top: 2rem;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about-me .about-text button {
+  width: 50%;
+  height: 6vh;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #fb8500;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/*end of About me section*/
+
+/*expertise section*/
+.expertise {
+  width: 100%;
+  height: 65vh;
+  margin-top: 5rem;
+}
+.expertise .headline h1 {
+  font-size: 37px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.expertise .headline h3 {
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.expertise .card-section .card {
+  border: none;
+  margin: 4rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+.expertise .card-section .card h2 {
+  font-size: 22px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.expertise .card-section .card p {
+  font-size: 14px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+/*end expertsie*/
+
+/* start clients*/
+
+.clients {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  height: 56vh;
+}
+.clients .scroller {
+  display: flex;
+  margin-top: 7rem;
+  overflow-x: scroll;
+  height: 30vh;
+  justify-content: space-around;
+}
+
+.clients .scroll {
+  flex: 0 0 auto;
+  margin-right: 10px; /* Optional: spacing between images */
+}
+
+.clients .scroller img {
+  margin-top: 2rem;
+  animation: scroll 5s linear infinite;
+  width: 15%;
+  height: 20vh;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* start clients*/
+/*start portfolio*/
+.portfolio {
+  width: 100%;
+  height: 90vh;
+}
+
+.portfolio .portfolio-header ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.portfolio .portfolio-header ul li {
+  margin-left: 5rem;
+  position: relative; /* Ensure the li is positioned relative */
+  font-size: 14px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.portfolio .portfolio-header ul li:hover {
+  color: #fb8500;
+}
+.portfolio .portfolio-header ul li:hover::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1.5px;
+  background-color: black;
+  transform-origin: left;
+  transition: 5s linear; /* Adjusted to 5 seconds */
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.portfolio .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .profile .cards {
+  position: relative;
+  margin-top: 4rem;
+  width: 340px;
+  margin-left: 3rem;
+  height: 350px;
+  border: black solid 1px;
+  border-radius: 9px;
+}
+.portfolio .profile .cards {
+  /* Default styling for .cards */
+  transition: transform 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.portfolio .profile .cards:hover::after {
+  content: "";
+  display: block;
+  width: 340px;
+  height: 350px;
+  transform-origin: left;
+  background-color: black;
+  border-radius: 9px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 5s linear; /* Adjusted to 5 seconds */
+}
+
+/*end portfolio*/
