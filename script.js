@@ -1,6 +1,8 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-    // Slide the logo from left (slower)
+  // GSAP animations
+
+  // Slide the logo from left (slower)
   gsap.from(".logo", {
     x: "-100%", // Start from off-screen to the left
     opacity: 0, // Start with 0 opacity
