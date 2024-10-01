@@ -261,6 +261,18 @@
       document.addEventListener("DOMContentLoaded", function () {
         const cards = document.querySelectorAll(".col-lg-4"); // Correct class selector
         const navLinks = document.querySelectorAll(".nav-link");
+             const Hamburger = document.getElementById("hamburger");
+      const Sliders = document.getElementsByClassName("slider")[0]; // Notice 'Sliders' (plural) since this is a collection
+      const Cross = document.getElementById("cross");
+      Hamburger.addEventListener("click", function () {
+        console.log("click");
+
+        Sliders.classList.toggle("active");
+      });
+
+      Cross.addEventListener("click", function () {
+        Sliders.classList.toggle("active");
+      });
 
         // GSAP animations
         // Slide the logo from left (slower)
