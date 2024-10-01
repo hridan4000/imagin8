@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Tab image rises from the bottom on scroll (slightly delayed)
   gsap.from(".tab-img", {
-    y: "100%", // Start off-screen below
+    y: "20%", // Start off-screen below
     opacity: 0, // Start with 0 opacity for a fade-in effect
     duration: 0.5, // Same duration as the text for synchronization
     ease: "power2.out", // Smooth ease-out effect
