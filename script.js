@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.from(".tab-img", {
     y: "100%", // Start off-screen below
     opacity: 0, // Start with 0 opacity for a fade-in effect
-    duration: 1.5, // Same duration as the text for synchronization
+    duration: 0.5, // Same duration as the text for synchronization
     ease: "power2.out", // Smooth ease-out effect
     delay: 0.3, // Slight delay so the text appears first
     scrollTrigger: {
