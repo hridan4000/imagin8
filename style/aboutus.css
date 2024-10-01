@@ -1,0 +1,124 @@
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.heading {
+  font-size: 24px;
+  color: orange;
+  margin-top: 20px;
+  opacity: 0;
+}
+
+.subheading {
+  font-size: 36px;
+  font-weight: bold;
+  color: orange;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid orange;
+  margin: 20px auto;
+  opacity: 0;
+}
+
+.profile-img img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  opacity: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.cards img {
+  width: 30%;
+  height: 10vh;
+}
+
+.card-custom p {
+  font-size: 15px;
+}
+.card-custom h5 {
+  font-weight: bold;
+}
+.card-custom:hover {
+  color: white;
+  background-color: orange;
+  border: 3px solid white;
+  transition: 1.6s ease;
+}
+
+.card-custom {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  border: 3px solid orange;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(33.33% - 20px); /* Ensure 3 cards per row */
+  max-width: 300px; /* You can adjust this based on your design */
+  opacity: 0; /* Ensure cards are initially hidden */
+  transform: translateY(-50px); /* Cards start off higher */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .subheading {
+    font-size: 28px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .description {
+    text-align: center;
+    opacity: 0;
+    width: 80%;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  .card-custom {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 18px;
+  }
+
+  .subheading {
+    font-size: 24px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card-custom {
+    flex: 1 1 100%;
+  }
+}
