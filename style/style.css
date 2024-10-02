@@ -213,6 +213,13 @@ body {
     font-style: normal;
   }
 }
+@media (max-width: 767px) {
+  html,
+body {
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+}
 
 @media (max-width: 767px) {
   .header {
