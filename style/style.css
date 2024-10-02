@@ -4,29 +4,10 @@
   box-sizing: border-box;
 }
 
-/* Preloader Style */
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background-color: #fff; /* Optional: Change this background color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Preloader Image */
-.preloader-image {
-  width: 150px; /* Adjust the size of the logo */
-  height: auto;
-}
-
 html,
 body {
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 /*header section*/
@@ -100,11 +81,6 @@ body {
   margin: -1rem auto;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  html,
-body {
-  overflow-x: hidden;
-}
-
   .header {
     height: 12vh;
   }
@@ -172,11 +148,6 @@ body {
 }
 
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
-  html,
-body {
-  overflow-x: hidden;
-}
-
   .header {
     height: 12vh;
     width: 100%;
@@ -216,11 +187,6 @@ body {
   }
 }
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
-  html,
-body {
-  overflow-x: hidden;
-}
-
   .header {
     height: 10vh;
   }
@@ -249,11 +215,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  html,
-body {
-  overflow-x: hidden;
-}
-
   .header {
     height: 8vh;
   }
