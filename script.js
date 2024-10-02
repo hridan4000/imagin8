@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".about-section",
-      start: "top 90%", // Start when the top of the section is at 90% of the viewport
+      start: "top 50%", // Start when the top of the section is at 90% of the viewport
       toggleActions: "play none none none",
     },
   });
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".about-section",
-      start: "top 90%",
+      start: "top 50%",
       toggleActions: "play none none none",
     },
   });
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ease: "power2.out", // Smooth ease-out effect
     scrollTrigger: {
       trigger: ".headline", // Trigger the animation when the headline comes into view
-      start: "top 80%", // Start the animation when the top of the headline is at 80% of the viewport
+      start: "top 60%", // Start the animation when the top of the headline is at 80% of the viewport
       toggleActions: "play none none none", // Only play once on scroll
     },
   });
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ease: "power2.out", // Smooth ease-out effect
     scrollTrigger: {
       trigger: ".card-section", // Trigger the animation when the card-section comes into view
-      start: "top 80%", // Start when the card-section reaches 80% of the viewport
+      start: "top 60%", // Start when the card-section reaches 80% of the viewport
       toggleActions: "play none none none", // Only play once on scroll
     },
   });
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stagger: 0.2,
     scrollTrigger: {
       trigger: ".headline",
-      start: "top 90%",
+      start: "top 60%",
       toggleActions: "play none none none",
     },
   });
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stagger: 0.2,
     scrollTrigger: {
       trigger: ".headline",
-      start: "top 80%",
+      start: "top 70%",
       toggleActions: "play none none none",
     },
   });
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stagger: 1.2,
     scrollTrigger: {
       trigger: ".headline",
-      start: "top 80%",
+      start: "top 70%",
       toggleActions: "play none none none",
     },
   });
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
     stagger: 1.2,
     scrollTrigger: {
       trigger: ".headline",
-      start: "top 80%",
+      start: "top 70%",
       toggleActions: "play none none none",
     },
   });
