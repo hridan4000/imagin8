@@ -27,7 +27,6 @@
 html,
 body {
   overflow-x: hidden;
-
 }
 
 /*header section*/
@@ -101,6 +100,11 @@ body {
   margin: -1rem auto;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  html,
+body {
+  overflow-x: hidden;
+}
+
   .header {
     height: 12vh;
   }
@@ -168,6 +172,11 @@ body {
 }
 
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  html,
+body {
+  overflow-x: hidden;
+}
+
   .header {
     height: 12vh;
     width: 100%;
@@ -207,6 +216,11 @@ body {
   }
 }
 @media only screen and (min-device-width: 540px) and (max-device-width: 720px) {
+  html,
+body {
+  overflow-x: hidden;
+}
+
   .header {
     height: 10vh;
   }
@@ -235,6 +249,11 @@ body {
 }
 
 @media (max-width: 767px) {
+  html,
+body {
+  overflow-x: hidden;
+}
+
   .header {
     height: 8vh;
   }
